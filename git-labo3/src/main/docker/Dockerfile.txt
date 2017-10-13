@@ -1,6 +1,0 @@
-FROM dockerfile/java:oracle-java8
-
-ADD git-labo3.jar /opt/git-labo3/
-EXPOSE 8080
-WORKDIR /opt/git-labo3/
-CMD ["java", "-Xms512m", "-Xmx1g", "-jar", "git-labo3.jar"]
